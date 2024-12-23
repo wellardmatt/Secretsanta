@@ -24,7 +24,8 @@ body{
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	align: center;
+	display: block;
+	margin: auto;
 }
 
 /** Course **/
@@ -636,7 +637,7 @@ h4{
 section{
 	font-size: 0.85em;
 	color: #fff;
-	postion: relative;
+	position: relative;
 	height: 78px;
 	font-weight: bold;
 }
@@ -983,7 +984,7 @@ h2{
 }
 #header-nav>div{
 	height: auto;
-	postion: absolute;
+	position: absolute;
 }
 .main-content{
 	clear: both;
@@ -1008,7 +1009,7 @@ footer, #homefooter{
 	margin-top: 100px;
 }
 footer section{
-	postion: relative;
+	position: relative;
 	text-align: center;
 	clear: both;
 	height: auto;
