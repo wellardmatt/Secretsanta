@@ -1,0 +1,1090 @@
+/** 
+Shaded Spruce: #005960
+Golden Lime: #9C9A40
+Marina: #5388CD
+Neutral Gray: #898E8C **/
+
+/** BODY **/
+
+/** All **/
+body{
+	height: 10%;
+	width: 100%;
+	background-color: #000;
+	font-family: 'Roboto Mono', monospace;
+}
+.background{
+    position: fixed;
+    min-width: 100%; 
+    min-height: 100%;
+	opacity: 1;
+	padding: 0;
+}
+.background>img{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	align: center;
+}
+
+/** Course **/
+
+.coursebackground{
+	position: fixed;
+}
+.coursebackground>img{
+	width: 100%;
+	position: fixed;
+}
+
+/** Testimonials **/
+
+.testimonialsbackground>img{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+}
+
+/** About **/
+
+.aboutbackground>img{
+	position:fixed;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+/** HEADER **/
+
+/** All **/
+
+a>img{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+#Logo-Img{
+	height:100%;
+	width: 100%;
+	opacity: 1;
+	padding: 1px;
+	margin: auto;
+}
+#Logo-Img2{
+	height: 40%;
+	width: 40%;
+}
+nav{
+	margin:0;
+}
+#header-nav>div{
+	height: Auto;
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	float:right;
+}
+#header-nav{
+	background-color: transparent;
+	margin:0;
+	border:0;
+	border-radius:0;
+}
+#navbar-header{
+	height:100%;
+}
+.navbar-toggle{
+	display:block;
+	float: right;
+}
+.navbar-brand{
+	height: 100%;
+	padding: 0;
+	margin: auto;
+	float: left;
+	margin-left: 0 !important;
+}
+.central-brand{
+	height: 100%;
+	padding: 0;
+	margin: auto;
+	margin-left: 0 !important;
+	float: center !important;
+}
+#form>a{
+	color: #9C9A40;
+}
+#Logo-Img>span, #Logo-Img2>span{
+	color:#5A9399;
+	font-weight: bold;
+}
+div>a{
+	height:100%;
+	width: 100%;
+}
+.navbar-default .navbar-nav>li>a, #navHomeButton>a {
+	color:#f57322;
+	font-weight: bold;
+	background-color: transparent;
+}
+li{
+	float: right;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 0.75em;
+}
+li:hover>a{
+	color: #9C9A40 !important;
+}
+#form>a:hover{
+	color: #fff !important;
+}
+li:hover{
+	opacity: 0.8;
+	cursor: pointer !important;
+}
+#collapsable-nav{
+	border-top:0;
+	float: right;
+	box-shadow: none;
+}
+#nav-list{
+	float: right;
+}
+
+
+
+
+
+
+/** MAIN CONTENT **/
+
+/** All **/
+
+.main-content{
+	position: relative;
+	top: 0px;
+	height: 100%;
+}
+#title{
+	margin-bottom: 20px;
+	color: #f05c07;
+	position: relative;
+	font-family: 'Roboto Mono', monospace;
+}
+hr{
+	width: 80%;
+	opacity: 0.4;
+}
+.main-content>#title>h1{
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+h2{
+	color: #faf604;
+}
+.main-content>div>div{
+	height: 100%;
+}
+a>div>span{
+	background-color: transparent;
+	color: #f68640;
+	font-size: 1em;
+	height: auto;
+	vertical-align: middle;
+	position: relative;
+	top: 2px;
+	font-family: 'Roboto Mono', monospace;
+	width: auto;
+	padding: auto;
+	margin: auto;
+}
+.box{
+	border: solid 2px transparent;
+	background-color: #200aeb;
+	height: 30px;
+	width: 100%;
+	opacity: 0.7;
+	padding: auto;
+	position:relative;
+	margin: auto;
+	margin-bottom: 15px;
+	color: #f98550;
+	border-radius: 5px;
+}
+.box:hover, .box:hover>span{
+	color: #3205fe;
+}
+.box:hover{
+	border: solid 2px #005960;
+}
+a:focus, a:hover{
+	text-decoration: none;
+	color: #3a06f6;
+}
+p>span>a:hover{
+	opacity:0.8;
+}
+p>span>a{
+	font-size: 1.2em;
+	text-shadow: 0.25px 0.25px 0.25px black;
+}
+
+/** Home **/
+
+#home-tiles{
+	padding: auto;
+	margin: Auto;
+	width: 60%;
+	font-family: 'Roboto Mono', monospace;
+}
+#home-tiles>div{
+	padding: 0 10px 0;
+	margin: auto;
+}
+div>h2>a{
+	color:#44ADBC;
+}
+.bookingform>a:hover>div>span{
+	color: #fff;
+}
+.bookingform>a:hover>div{
+	border: solid 1px #fff;
+}
+.main-content>.bookingform{
+	border: none;
+}
+.main-content>.bookingform:hover{
+	border: none;
+}
+.bookingform{
+	margin-top: 50px;
+	border: solid 2px transparent;
+}
+.bookingform .box{
+	padding:auto;
+	margin-top: auto;
+	background-color:#44ADBC;
+	width: 300px;
+	height: 100%;
+	clear: both;
+}
+.bookingform>span{
+	color: #000;
+	background: transparent;
+	font-size: 1.5em;
+	position: relative;
+	top: 0px;
+}
+.bookingform:hover>span{
+	color: #44ADBC;
+}
+.bookingform:hover{
+	border: solid 2px #44ADBC;
+}
+
+
+/** Courses **/
+
+#Courseblock{
+	position: relative;
+	height: auto;
+	clear: both;
+	margin-left: 25px;
+	margin-right: 25px;
+	top: 0px;
+}
+#Courseblock>#title{
+	color: #9C9A40;
+	text-shadow: 0.5px 0.5px 2px black;
+}
+#easterrates>div>h1, #tuitionrates>div>h1{
+	font-size: 1.5em;
+	color: rgb(244, 88, 4);
+	text-decoration: underline;
+}
+#easterrates>div>span, #tuitionrates>div>span{
+	font-size: 1.3em;
+	text-decoration: none !important;
+}
+#easterdates, #easterdates div, #tuitionsessions div{
+	font-size: 1.4em;
+	color: white;
+}
+#tuitionsessions>div{
+	padding: 10px 0 0;
+}
+#tuitionsessions{
+	margin-bottom: 0px;
+}
+#easterrates span, #easterdates span{
+	font-size: 0.7em;
+	color: white;
+}
+.big{
+	font-size: 2em;
+	float: left;
+}
+.big .little{
+	font-size: 0.6em;
+	vertical-align: middle;
+}
+#tuition{
+	margin-top: 0px;
+	height: 100%;
+}
+
+/** About **/
+
+.abouttitle{
+	bottom: 50px;
+	padding-bottom: 40px;
+}
+.lefttext{
+	position:relative;
+	width: 45%;
+	float: left;
+	bottom: 75px;
+	height: 100%;
+	margin-left: 20px;
+}
+.lefttext>h1, .lefttext div, .lefttext p, .lefttext li{
+	color: #ee5c08;
+}
+.lefttext>h1, .righttext>h1{
+	font-size: 2em;
+}
+.about>p{
+	color: white !important;
+}
+.text-left{
+	float: none;
+	font-size: 1em;
+	width: 100%;
+}
+.righttext{
+	position: relative;
+	float: right;
+	width: 45%;
+	bottom: 75px;
+	height: auto;
+	color: white;
+	font-size: 1em;
+	margin-right: 20px;
+}
+.righttext>img{
+	position: relative;
+	width: 65%;
+}
+.righttext li{
+	float: none;
+	position: relative;
+	font-size: 1em;
+}
+.testimonials, .reference{
+	font-size: 0.9em;
+}
+
+/** EnqForms **/
+
+.enquiries{
+	top: 0px;
+	padding-bottom: 30px; 
+}
+#enquiryblock{
+	position: relative;
+	height: auto;
+	clear: both;
+	margin-left: 25px;
+	margin-right: 25px;
+	top: 0px;
+}
+#easteremail>h2>a{
+	text-decoration: underline;
+}
+
+form{
+	font-family: 'Roboto Mono', monospace;
+}
+#submit{
+	position: relative;
+	align-content: center;
+	margin-bottom: 10px;
+	width: 250px;
+}
+#weeks{
+	width: 30%;
+}
+#bookingblock{
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box;
+	padding: 12px 12px;
+	width: 90%;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=number], select, textarea, number {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;
+	overflow-x: hidden;
+	opacity: 0.5;
+	text-align: left;
+	vertical-align: text-top;
+		/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+form>.container{
+	padding-left: 0;
+}
+form>.container>div>div{
+	padding-left: 0;
+}
+#fname{
+	float: left;
+}
+#lname{
+	float: left;
+}
+label{
+	color: white;
+}
+.checkBoxweek{
+	float: right;
+}
+.infoonmoduleslink{
+	font-family: inherit;
+	color: white;
+	font-size: 0.8em;
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #9C9A40;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-top: 20px;
+}
+input[type=submit]:hover {
+    background-color: #005960;
+}
+/* Add a background color and some padding around the form */
+/*.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}*/
+
+/** Testimonials **/
+
+#testimonial-tiles>div{       
+	margin-bottom: 20px;
+	padding: 0px 35px;
+	color: #fff;
+	font-family: 'Roboto Mono', monospace;
+}
+.testname{
+	text-shadow: 0.75px 0.75px 7px white;
+}
+
+/** Modules **/
+.modules{
+	color: white;
+	width: 45%;
+}
+#modulebreakdowns li, .module li{
+	float: none;
+	font-size: 1em;
+}
+#module-tiles{
+	clear: left;
+}
+#oldalevel, #newalevel{
+	margin-bottom: 10px;
+}
+#newalevel{
+	color:#44ADBC;
+}
+#oldalevel{
+	color:#9C9A40;
+}
+.modulebreakdowns>div{
+	height: auto;
+	margin-bottom: 50px;
+}
+.modulebreakdowns>div>span{
+	font-size:1em;
+}
+.modulebreakdowns>div>div {
+	padding: 20px 20px;
+}
+.modulebreakdowns>div>div{
+	padding: 5px 0px;
+	width: 100%;
+}
+.modulebreakdowns>div>.blue{
+	text-align: center;
+	color: #44ADBC;
+	width: 90%;
+	margin: 0px;
+	padding: 5px;
+}
+.modulebreakdowns>div>h4{
+	text-align: center;
+	color: #9C9A40;
+	width: 90%;
+	margin: 0px 0px;
+	padding: 5px;
+}
+.module{
+	color: white;
+	height: 250px;
+	font-size: 1.2em;
+	margin: 10px 30px;
+}
+#modules{
+	top: -70px;
+}
+.p2{
+	margin-left: 70px;
+}
+.p2>li{
+	margin: 10px 0px;
+}
+.p2>li>ul{
+	list-style-type: disc;
+}
+.modulebreakdowns>.linksbox>.links{
+	font-size: 1em;
+	margin: 0px auto 2px;
+	color: white;
+	width: 100%;
+}
+.linksbox{
+	border: solid 1px white;
+	width: 50%;
+	background: darkgrey;
+	opacity: 0.8;
+}
+.AQA>a{
+	color:#412D7A;
+}
+.Edexcel>a{
+	color:#007FA3;
+}
+.OCR>a{
+	color:#0E2A5E;
+}
+.MEI>a{
+	color:#04AAF0;
+}
+
+
+
+
+
+
+/** FOOTER **/
+
+/** All **/
+
+.contact>h2, .contact>h2>a{
+	color: white;
+	font-family: inherit;
+	font-size: 1.3em;
+}
+footer{
+	bottom: 0;
+	height: Auto;
+	width: 100%;
+	background-color: transparent;
+}
+.panel-footer{
+	background-color: transparent;
+	padding:5px 5px 5px 0px;
+	color: #fff;
+	border-top: 0px;
+	font-size: 1.1em;
+	margin-bottom: 0px;
+/*	text-shadow: 0.5px 0.5px 5px black;*/
+}
+#copywrite{
+	float: left;
+	position: fixed;
+	bottom: 0;
+}
+h4{
+	margin-bottom: 5px;
+	margin-top: 0;
+	color: #9C9A40;
+	font-size: 1.5em; 
+}
+section{
+	font-size: 0.85em;
+	color: #fff;
+	postion: relative;
+	height: 78px;
+	font-weight: bold;
+}
+section>div{
+	position: relative;
+	top: 40px;
+	font-weight: 100;
+}
+section>a{
+	color: #fff;
+}
+.panel-footer>.bookingformfooter{
+	border: none;
+	margin-top: 5px;
+}
+.panel-footer>.bookingformfooter:hover{
+	border: none;
+}
+.bookingformfooter{
+	margin-top: 0;
+	border: solid 2px transparent;
+}
+.bookingformfooter .box{
+	padding:auto;
+	margin-top: auto;
+	background-color:#9C9A40;
+	width: 100px;
+	height: 100%;
+	clear: both;
+}
+.bookingformfooter>span{
+	color: #000;
+	background: transparent;
+	font-size: 1em;
+	position: relative;
+	top: 0px;
+	text-shadow: none;
+}
+.bookingformfooter:hover>span{
+	color: #005960;
+}
+.bookingformfooter:hover{
+	border: solid 2px #005960;
+}
+.contact-buttons{
+	position: relative;
+}
+.contact-buttons>section{
+	width: auto;
+	height: auto;
+}
+.contact-buttons>section>.button{
+	font-family: inherit;
+}
+.fa {
+    padding: 0 5px;
+    font-size: 8px;
+	font-weight: clear;
+	font-family: inherit;
+    width: Auto;
+    text-align: center;
+    text-decoration: none;
+	float: center;
+	margin: 0px 10px;
+}
+.fa:hover {
+    color: white;
+}
+.button {
+    color: #fff;
+}
+.fa-contact:hover{
+	color:#3B5998;	
+}
+.fa-copywrite:hover{
+	color: #55ACEE;
+}
+.fa-facebook:hover {
+    color: #3B5998;
+}
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+.fa-instagram:hover {
+	color: #8A4702;
+}
+/** Home **/
+
+#homefooter {
+	position: fixed;
+}
+
+/** EnqForms **/
+
+#enquiryfooter{
+	position: fixed;
+}
+
+/** About **/
+
+#aboutfooter{
+	position: relative;
+}
+
+/** Testimonials **/
+
+#testfooter{
+	position: relative !important;
+	display: block;
+}
+
+/** Course **/
+
+#coursefooter{
+	position: relative;
+	clear: both;
+	margin-top: 0px;
+}
+
+/** Modules **/
+
+#modulesfooter{
+	position: relative;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+/**Media Queries**/
+@media (max-width: 1200px){
+#aboutfooter{
+	position: relative;
+}
+}
+
+
+
+
+@media (min-width: 992px){
+#bookingblock>div>div:nth-child(1){
+	position: relative;
+	padding-left: 15px;
+}
+.enquiries>h2{
+	font-size: 1.8em;
+}
+.enquiries>#title{
+	margin-top: -20px;	
+}
+	/** TESTIMONIAL BOX SIZES **/
+
+#testimonial-tiles>.row-3-1{
+	height:250px;
+}
+#testimonial-tiles>.row-3-2{
+	height:175px;
+}
+#testimonial-tiles>.row-3-3{
+	height:250px;
+}
+#testimonial-tiles>.row-3-4{
+	height:315px;
+}
+#testimonial-tiles>.row-3-5{
+	height:500px;
+}
+#testimonial-tiles>.row-3-6{
+	height: 300px;	
+}
+	
+}
+
+
+
+
+@media (max-width: 991px){
+.modules{
+	color: rgb(229, 17, 17);
+	width: 100%;
+}
+.lefttext{
+	position:relative;
+	height: auto;
+	width: 100%;
+	bottom: 75px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+.righttext{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	bottom: 0px;
+	font-size: 1em;
+}
+.righttext>img{
+	width: 50%;
+	margin: auto;
+}
+#aboutfooter{
+	margin-top: 100px;
+}
+#coursefooter{
+	position: relative;
+	clear: both;
+	margin-top: 30px;
+}
+.contact>h2, .contact>h2>a{
+	font-size: 1.2em;
+}
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+.homepage>#title>h1{
+	margin-top: 30px !important;
+}
+#modules>#title>h1{
+	margin-top: 70px;	
+}	
+#bookingblock>div>div:nth-child(1){
+	position: relative;
+	margin: 10px 0px;
+}
+#weeks{
+	width: 100%;
+}
+#title{
+	margin-bottom: 20px;
+	color: #f78235;
+	position: relative;
+	font-family: 'Roboto Mono', monospace;
+}
+.fullwidth{
+	color: white;
+	width: 100%;
+}
+.testimonialsbackground>img{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	right:0;
+}
+.main-content>#title>h1{
+	margin: 40px 0px 0px 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+h2{
+	color: #f6f203;
+	font-size: 1.5em;
+}	
+#myVideo{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 960px;
+}
+	
+#testimonial-tiles>.row-2-1{
+	height:225px;
+}
+#testimonial-tiles>.row-2-2{
+	height:225px;
+}
+#testimonial-tiles>.row-2-3{
+	height:175px;
+}
+#testimonial-tiles>.row-2-4{
+	height:175px;
+}
+#testimonial-tiles>.row-2-5{
+	height:225px;
+}
+#testimonial-tiles>.row-2-6{
+	height:300px;
+}
+#testimonial-tiles>.row-2-7{
+	height:400px;
+}
+#testimonial-tiles>.row-2-8{
+	height:450px;
+}
+#testimonial-tiles>.row-2-9{
+	height:150px;	
+}
+#weeks{
+	width: 50%;
+}
+.enquiries{
+	padding-bottom: 50px;
+	margin-top: 0px;
+}
+.enquiries>#title{
+	margin-top: -30px;	
+}
+.module{
+	height: 325px;
+}
+.linksbox{
+	width: 70%
+}
+}
+
+@media (min-width: 768px){
+	.testtitle{
+		bottom: 50px;
+	}
+	#tuition{
+	margin-top: 0px;
+	position: relative;
+	top: -50px;
+	}
+	
+}
+
+
+@media (max-width: 767px){
+.main-content{
+	top:0;
+}
+.enquiries{
+	padding-bottom: 50px;
+	margin-top: -10px;
+}
+.testimonialsbackground>img{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	right:0;
+}
+#testimonial-tiles>div{
+	border: none;
+	height: auto;
+}
+#header-nav>div{
+	height: auto;
+	postion: absolute;
+}
+.main-content{
+	clear: both;
+	position: relative;
+}
+.background{
+	position: fixed;
+	height: auto;
+}
+form>.container{
+	padding: 0;
+}
+form>.container>div>div{
+	padding: 0;
+}
+#testimonial-tiles>div>.feedback{
+	height:auto;
+}
+footer, #homefooter{
+	position: relative;
+	height: auto;
+	margin-top: 100px;
+}
+footer section{
+	postion: relative;
+	text-align: center;
+	clear: both;
+	height: auto;
+}
+#aboutfooter{
+	top: 0;
+	margin: 0;
+}
+#weeks{
+	width: 100%;
+}
+.box{
+	width: 95%;
+	margin-bottom: 10px;
+}
+.main-content>.bookingform{
+	margin-top:175px;
+	}
+.navbar-brand>a {
+	padding: auto;
+	margin: auto;
+}
+#Logo-Img>img, #Logo-Img2>img {
+	height: 40%;
+	width: 40%;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+.module{
+	height: auto;
+	width: 100%;
+	position: relative;
+	right: 40px;
+}
+.linksbox{
+	width: 80%;
+}
+#title{
+	margin-top: 0px;	
+}
+
+.homepage>#title>h1{
+	margin-top:20px;
+}
+.enquiries>#title{
+	margin-top: 0px;	
+}
+	#modules{
+		top: 0px;
+	}
+	.abouttitle{
+	bottom: 0px;
+	padding-bottom: 100px;
+}
+
+}
+
+
+
+@media(max-width: 640px){
+.linksbox{
+	width: 90%;
+}
+.navbar-brand{
+	width: 30%;	
+}
+}
+
+@media (max-width: 575px){
+.col-xxs-12{
+	width: 100%;
+	text-align: left;
+	position: relative;
+	left: 20px;
+}
+.linksbox{
+	width: 95%;
+}
+}

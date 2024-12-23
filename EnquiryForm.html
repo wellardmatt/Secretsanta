@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matthew Wellard Maths Online A-level Courses and Tuition</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid background aboutbackground">
+		<img src="Images/Small background.jpg" alt="Blackboard with thinking cloud">
+		</div>
+	
+	
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+      	<div id="navbar-header">
+<!--			<div class="navbar-brand">-->
+<!--
+          <a href="Homepage.html" class="pull-left visible-md visible-lg">
+			   <div id="Logo-Img" class="center-block" style="opacity: 0"><img  src="Images/Blackboard-images/Logo1.jpg" alt="MWM Tuition"></div>
+			   </a>
+			</div>  End navbar brand/Logo 
+-->
+			<div class="menu">
+		<button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>			     
+		</button>
+		<div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="form" class="hidden-xs text-center">
+              <a href="Booking.html">Easter Revision Booking</a>
+            </li>
+			   <li id="navHomeButton" class="active text-center">
+              <a href="homepage.html">Home</a>
+            </li>
+			   <li class="text-center">
+              <a href="About.html">About</a>
+            </li>
+            <li id="navMenuButton" class="text-center">
+              <a href="Courses.html" onclick="$dc.loadMenuCategories();">Rates</a>
+            </li>
+            <li  class="text-center">
+              <a href="Testimonials.html">Testimonials</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse ---->
+			</div>
+		  </div>
+			</div>
+		</nav>
+	</header>
+<div id="enquiryblock" class="main-content container-fluid">	
+<div id="title" class="text-center">
+				<h1>Enquiry Form</h1>
+			</div>
+	<div class="container">
+  <form action="action_page.php" method="post">
+<div class="container">
+	<div class="row3text-center">
+	<div class="col-md-6 col-xs-12">
+    <label for="fname">First Name</label><br>
+		<input type="text" id="fname" name="firstname" placeholder="Your name.."></div>
+<div class="col-md-6 col-xs-12">
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		</div>
+	</div>
+	</div>
+	<label for="email">Email</label>
+    <input type="text" id="email" name="emailaddress" placeholder="Your email address..">
+
+    <label for="subject">Enquiry</label>
+    <textarea id="subject" name="subject" placeholder="What are you looking for..." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+	</div>
+	<footer id="coursefooter">
+	<div id="contact" class="text-center"><p>wellardmatt@gmail.com</p><p>07443045853</p></div>
+	
+	<div class="contact-buttons container-fluid">
+		
+
+<!-- Add font awesome icons -->
+<section class="text-center center-block">
+	<a href="#" class="fa fa-copywrite">MWellard &copy; 2018</a>-
+		<a href="#" class="fa fa-facebook">Facebook</a>-
+<a href="#" class="fa fa-twitter">Twitter</a>-
+	<a href="EnquiryForm.html" class="fa fa-contact button">Contact</a>
+	</section>
+	</div>
+	
+	</footer>		
+	
+<script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
